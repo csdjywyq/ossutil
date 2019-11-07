@@ -16,7 +16,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	oss "github.com/aliyun/aliyun-oss-go-sdk/oss"
+	oss "github.com/csdjywyq/aliyun-oss-go-sdk/oss"
 	uuid "github.com/satori/go.uuid"
 )
 

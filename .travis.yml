@@ -7,7 +7,7 @@ install:
 - go get gopkg.in/check.v1
 - go get github.com/droundy/goopt
 - go get github.com/alyu/configparser
-- go get github.com/aliyun/aliyun-oss-go-sdk/oss
+- go get github.com/csdjywyq/aliyun-oss-go-sdk/oss
 - go get github.com/syndtr/goleveldb/leveldb
 - go get github.com/satori/go.uuid
 script:

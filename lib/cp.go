@@ -14,7 +14,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	oss "github.com/aliyun/aliyun-oss-go-sdk/oss"
+	oss "github.com/csdjywyq/aliyun-oss-go-sdk/oss"
 	leveldb "github.com/syndtr/goleveldb/leveldb"
 )
 

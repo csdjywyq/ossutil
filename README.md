@@ -4,7 +4,7 @@
 [![Build Status](https://travis-ci.org/aliyun/ossutil.svg?branch=master)](https://travis-ci.org/aliyun/ossutil)
 [![Coverage Status](https://coveralls.io/repos/github/aliyun/ossutil/badge.svg?branch=master)](https://coveralls.io/github/aliyun/ossutil?branch=master)
 
-### [README of Chinese](https://github.com/aliyun/ossutil/blob/master/README-CN.md)
+### [README of Chinese](https://github.com/csdjywyq/ossutil/blob/master/README-CN.md)
 
 ## About
 - This tool is developed with Go and built on the official GO SDK v2.0.3 of OSS [Alibaba Cloud Object Storage Service](http://www.aliyun.com/product/oss/).
@@ -26,7 +26,7 @@
 - goopt (github.com/droundy/goopt) 
 - configparser (github.com/alyu/configparser)
 - leveldb (github.com/syndtr/goleveldb/leveldb)
-- oss (github.com/aliyun/aliyun-oss-go-sdk/oss)
+- oss (github.com/csdjywyq/aliyun-oss-go-sdk/oss)
 - gopkg.in/check.v1 (gopkg.in/check.v1)
 - uuid (github.com/satori/go.uuid)
 
@@ -71,12 +71,12 @@ You can use `./ossutil help cmd` to view the help documentation for the command 
 ### Run OSSUTIL
 - First, configure your Go project directory. 
 - Use `go get` to get the library that ossutil depends on.
-- Run `go get github.com/aliyun/ossutil`.
-- Enter the *src* directory under the Go project directory and build to generate the OSSUTIL tool. For example, on Linux, you can run `go build github.com/aliyun/ossutil/ossutil.go`.
+- Run `go get github.com/csdjywyq/ossutil`.
+- Enter the *src* directory under the Go project directory and build to generate the OSSUTIL tool. For example, on Linux, you can run `go build github.com/csdjywyq/ossutil/ossutil.go`.
 - Refer to the example above to run the OSSUTIL tool.
 
 ### Test
-- Enter the *src* directory under the Go project directory and modify the endpoint, AccessKeyId, AccessKeySecret and STSToken configuration items in the *github.com/aliyun/ossutil/lib/command_test.go*.
+- Enter the *src* directory under the Go project directory and modify the endpoint, AccessKeyId, AccessKeySecret and STSToken configuration items in the *github.com/csdjywyq/ossutil/lib/command_test.go*.
 - Run `go test` under the *lib* directory.
 
 ## Contact us
@@ -88,4 +88,4 @@ You can use `./ossutil help cmd` to view the help documentation for the command 
 - [Ting Zhang](https://github.com/dengwu12)
 
 ## License
-- [MIT](https://github.com/aliyun/ossutil/blob/master/LICENSE)
+- [MIT](https://github.com/csdjywyq/ossutil/blob/master/LICENSE)

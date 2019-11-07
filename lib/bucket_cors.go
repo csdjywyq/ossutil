@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/aliyun/aliyun-oss-go-sdk/oss"
+	"github.com/csdjywyq/aliyun-oss-go-sdk/oss"
 )
 
 var specChineseCors = SpecText{

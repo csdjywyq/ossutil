@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	oss "github.com/aliyun/aliyun-oss-go-sdk/oss"
+	oss "github.com/csdjywyq/aliyun-oss-go-sdk/oss"
 )
 
 var logName = "ossutil.log"

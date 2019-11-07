@@ -4,7 +4,7 @@ import (
 	"encoding/xml"
 	"os"
 
-	oss "github.com/aliyun/aliyun-oss-go-sdk/oss"
+	oss "github.com/csdjywyq/aliyun-oss-go-sdk/oss"
 	. "gopkg.in/check.v1"
 )
 

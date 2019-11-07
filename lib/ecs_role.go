@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	oss "github.com/aliyun/aliyun-oss-go-sdk/oss"
+	oss "github.com/csdjywyq/aliyun-oss-go-sdk/oss"
 )
 
 const (

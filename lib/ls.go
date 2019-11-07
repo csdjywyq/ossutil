@@ -5,7 +5,7 @@ import (
 	"os"
 	"strings"
 
-	oss "github.com/aliyun/aliyun-oss-go-sdk/oss"
+	oss "github.com/csdjywyq/aliyun-oss-go-sdk/oss"
 )
 
 var specChineseList = SpecText{

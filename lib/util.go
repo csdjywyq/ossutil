@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	oss "github.com/aliyun/aliyun-oss-go-sdk/oss"
+	oss "github.com/csdjywyq/aliyun-oss-go-sdk/oss"
 )
 
 // Output print input string to stdout and add '\n'
